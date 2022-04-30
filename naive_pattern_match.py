@@ -1,3 +1,5 @@
+globals().clear() #clean the environment
+
 import argparse
 import numpy as np
 
@@ -51,9 +53,15 @@ def get_patterns(pattern=None,patternfile=None):
 
 
 def main(args):
-    T = get_text(args)
-    Ps = get_patterns(args)
-
+    if args.pattern is not None:
+      Ps = get_patterns(pattern = args.pattern)
+    elif args.patternfile is not None:
+      Ps = get_patterns(pattern = args.patternfile)
+    if args.text is not None:
+      T = get_text(text = args.text)
+    elif args.textfile is not None:
+      T = get_text(text = args.textfile)
+      
     for P in Ps:  # iterate over patterns
         if len(P) == 0: continue  # skip empty patterns
         print(f"> {P}")
