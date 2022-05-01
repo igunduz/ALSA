@@ -91,11 +91,10 @@ def search_with_AC(P, T):
     - yield each triple (start, stop, pattern_index)
     """
     root = AC_build(P)
-    r = root
     for i in range(len(T)):
         c = T[i]
-        r = r.delta(c)
-        for out in r.out:
+        root = root.delta(c)
+        for out in root.out:
             yield(i + 1 - len(P[out]),i + 1 , out)
 
 
