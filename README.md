@@ -1,4 +1,6 @@
 # Bioinformatics-Algorithms
-The repo for my solution to programming assignments of Algorithms for Sequencing Analysis course offered at Saarland University.
+The repository for pattern matching algorithms implemented in Python.
 
-1. Naive pattern matching algorithm implementation in Python.
+1. Naive Algorithm 
+2. Aho-Corasick
+3. BNDM
