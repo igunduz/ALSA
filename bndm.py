@@ -106,10 +106,6 @@ def bndm(masks, accept_state, T, results):
     """
     k = 0
     N = results.size
-    #masks = masks.astype(np.int64)
-    #masks = [chr(c) for c in masks]
-    #T = [chr(c) for c in T]
-    #T = "".join(T)
     pattern_length = int(np.log2(accept_state)+1)
     n, m, pos = len(T), pattern_length, pattern_length
     while(pos <= n):
