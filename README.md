@@ -1,6 +1,8 @@
 # Algorithms for Sequencing Analysis
-The repository for pattern matching algorithms implemented in Python.
+The repository contains Python implementation of core sequencing analysis algorithms.
 
-1. Naive Algorithm 
-2. Aho-Corasick Algorithm
-3. Backward Nondeterministic Dawg Matching Algorithm
+Pattern Matching Algorithm | Script|
+|:----------------:|:----------------:|
+| Naive Algorithm | **naive_pattern_match.py** |
+| Aho-Corasick Algorithm | **ahocorasick.py** |
+| Backward Nondeterministic Dawg Matching Algorithm | **bndm.py** |
