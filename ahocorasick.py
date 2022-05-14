@@ -1,5 +1,4 @@
 # assumes P is a list of strings
-# python assignment03.py -P AAB ABABBAB BAA -T AABABABBABABBABBBBBABABBAA
 
 import collections   # has a deque for breadth-first-search
 import argparse
