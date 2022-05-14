@@ -1,4 +1,4 @@
-# Bioinformatics-Algorithms
+# Algorithms for Sequencing Analysis
 The repository for pattern matching algorithms implemented in Python.
 
 1. Naive Algorithm 
