@@ -1,5 +1,5 @@
 # Algorithms for Sequencing Analysis
-The repository contains Python implementation of core next-generation sequencing analysis algorithms.
+The repository contains Python implementation of core next-generation sequencing analysis algorithms written by me.
 
  **Algorithm** | **Script**|
 |:----------------:|:----------------:|
