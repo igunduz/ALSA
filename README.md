@@ -7,3 +7,4 @@ The repository contains Python implementation of core sequencing analysis algori
 | Aho-Corasick Algorithm | *ahocorasick.py* |
 | Backward Nondeterministic Dawg Matching Algorithm | *bndm.py* |
 |Maximal Unique Matches | *mum.py* |
+|Constructing a Suffix Array | *sais.py* |
